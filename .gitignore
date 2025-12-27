@@ -1,0 +1,11 @@
+#compiled files
+*.o
+*.out
+*.exe
+
+#debug files
+*.gdb
+*.dSYM
+
+#vs code
+.vscode/
