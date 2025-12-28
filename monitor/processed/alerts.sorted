@@ -1,0 +1,6 @@
+raw/network.log:2025-12-26 CRITICAL Unreachable Network
+raw/network.log:Connection from 192.168.1.10 established
+raw/security.log:2025-12-27 FAILED Login attempt
+raw/security.log:Failed Login attempt from 10.0.10.1
+raw/system.log:2025-12-25 ERROR Disk space low
+raw/system.log:2025-12-27 CRITICAL Extremely High CPU Temperature
