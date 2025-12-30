@@ -1,0 +1,41 @@
+NETWORK: './monitor/raw/network.log' ->
+Correct File type..
+
+This is the data we extracted:
+Total Lines: 2
+Total Errors: 0
+Total Digits: 17
+-------------------------------------------
+
+OTHER: './monitor/raw/process_log.txt' ->
+Incorrect file type..
+The given file is not a '.log' file!
+-------------------------------------------
+
+SECURITY: './monitor/raw/security.log' ->
+Correct File type..
+
+This is the data we extracted:
+Total Lines: 2
+Total Errors: 0
+Total Digits: 14
+-------------------------------------------
+
+SYSTEM: './monitor/raw/system.log' ->
+Correct File type..
+
+This is the data we extracted:
+Total Lines: 2
+Total Errors: 1
+Total Digits: 16
+-------------------------------------------
+
+OTHER: './monitor/raw/timestamps.log' ->
+Correct File type..
+
+This is the data we extracted:
+Total Lines: 82
+Total Errors: 0
+Total Digits: 984
+-------------------------------------------
+

@@ -5,6 +5,10 @@
 # @date 30/12/2025.
 #
 
+#Print file's name and #arguements.
+echo "File Name: $0"
+echo "Argument Number: $#"
+
 #Checking if the user gave any arguments.
 if [ "$#" -lt 1 ]; then 
     echo "No arguments given!, Usage: $0 <directory>"
@@ -56,8 +60,4 @@ for file in "$dir"/*;do
         ./analyse_log "$file" >> "$report"
     fi 
 done
-
 echo "All logs processed. Report saved to $report"
-
-
-
