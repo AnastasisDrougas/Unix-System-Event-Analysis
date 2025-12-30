@@ -18,7 +18,9 @@ fi
 dir="$1"
 report="./monitor/reports/full_reports.txt"
 
-> "$report"
+#Clear file (for testing).
+# > "$report"
+
 
 #Checking if the given directory exists.
 if [ ! -d "$dir" ];then
