@@ -98,6 +98,7 @@ int extract_data(int fd){
                 for(int j = 0; j < line_index; j++) {
                     if(isdigit(line[j])) {
                         total_digits++;
+                        break; //Found one, leave the loop.
                     }
                 }
                 line_index = 0; //Reset line.
@@ -118,6 +119,7 @@ int extract_data(int fd){
         for(int j = 0; j < line_index; j++) {
             if(isdigit(line[j])) {
                 total_digits++;
+                break; //Found one, leave the loop.
             }
         }
     }
@@ -134,7 +136,7 @@ int print_and_return_retval(int total_lines, int total_errors, int total_digits)
         return 2;
     }else{
         printf("\nThis is the data we extracted:\n");
-        printf("Total Lines: %d\nTotal Errors: %d\nTotal Digits: %d\n",total_lines, total_errors, total_digits);
+        printf("Total Lines: %d\nTotal Lines Contained Errors: %d\nTotal Lines Contained Digits: %d\n",total_lines, total_errors, total_digits);
         printf("-------------------------------------------\n\n");
 
         return 0;
