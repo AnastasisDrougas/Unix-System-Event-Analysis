@@ -19,7 +19,7 @@ dir="$1"
 report="./monitor/reports/full_reports.txt"
 
 #Clear file (for testing).
-# > "$report"
+#> "$report"
 
 
 #Checking if the given directory exists.
@@ -34,7 +34,7 @@ if [ -z "$(ls -A "$dir")" ];then
     exit 0
 fi
 
-#Checking if the analyse.log is executable
+#Checking if the analyse_log is executable
 if [ ! -x ./analyse_log ];then
     echo "Error: ./analyse_log is not executable!"
     exit 1

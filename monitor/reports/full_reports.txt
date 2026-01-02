@@ -3,8 +3,8 @@ Correct File type..
 
 This is the data we extracted:
 Total Lines: 2
-Total Errors: 0
-Total Digits: 17
+Total Lines Contained Errors: 0
+Total Lines Contained Digits: 2
 -------------------------------------------
 
 OTHER: './monitor/raw/process_log.txt' ->
@@ -17,8 +17,8 @@ Correct File type..
 
 This is the data we extracted:
 Total Lines: 2
-Total Errors: 0
-Total Digits: 14
+Total Lines Contained Errors: 0
+Total Lines Contained Digits: 2
 -------------------------------------------
 
 SYSTEM: './monitor/raw/system.log' ->
@@ -26,8 +26,13 @@ Correct File type..
 
 This is the data we extracted:
 Total Lines: 2
-Total Errors: 1
-Total Digits: 16
+Total Lines Contained Errors: 1
+Total Lines Contained Digits: 2
+-------------------------------------------
+
+OTHER: './monitor/raw/test.txt' ->
+Incorrect file type..
+The given file is not a '.log' file!
 -------------------------------------------
 
 OTHER: './monitor/raw/timestamps.log' ->
@@ -35,7 +40,53 @@ Correct File type..
 
 This is the data we extracted:
 Total Lines: 82
-Total Errors: 0
-Total Digits: 984
+Total Lines Contained Errors: 0
+Total Lines Contained Digits: 82
+-------------------------------------------
+
+NETWORK: './monitor/raw/network.log' ->
+Correct File type..
+
+This is the data we extracted:
+Total Lines: 2
+Total Lines Contained Errors: 0
+Total Lines Contained Digits: 2
+-------------------------------------------
+
+OTHER: './monitor/raw/process_log.txt' ->
+Incorrect file type..
+The given file is not a '.log' file!
+-------------------------------------------
+
+SECURITY: './monitor/raw/security.log' ->
+Correct File type..
+
+This is the data we extracted:
+Total Lines: 2
+Total Lines Contained Errors: 0
+Total Lines Contained Digits: 2
+-------------------------------------------
+
+SYSTEM: './monitor/raw/system.log' ->
+Correct File type..
+
+This is the data we extracted:
+Total Lines: 2
+Total Lines Contained Errors: 1
+Total Lines Contained Digits: 2
+-------------------------------------------
+
+OTHER: './monitor/raw/test.txt' ->
+Incorrect file type..
+The given file is not a '.log' file!
+-------------------------------------------
+
+OTHER: './monitor/raw/timestamps.log' ->
+Correct File type..
+
+This is the data we extracted:
+Total Lines: 82
+Total Lines Contained Errors: 0
+Total Lines Contained Digits: 82
 -------------------------------------------
 

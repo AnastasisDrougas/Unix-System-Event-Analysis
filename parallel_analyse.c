@@ -12,7 +12,7 @@
 
 /*
 * @author AnastasisDrougas - it2024023.
-* @date 29/12/2025.
+* @date 2/1/2026.
 */
 
 
@@ -28,7 +28,6 @@ typedef struct{
     int total_errors;
     int total_digits;
 }results_t;
-
 
 
 void file_checking(int argc, char*argv[]);
@@ -51,7 +50,7 @@ int main(int argc, char *argv[]){
     thread_arg_t thread_args[file_number];
 
     //Create Threads
-    for(int i = 0; i<file_number; i++){
+    for(int i = 0; i < file_number; i++){
         //Extract filename.
         strcpy(thread_args[i].filename, argv[i+1]);
         //Create.
@@ -121,7 +120,6 @@ void extract_data(int fd, results_t *res, char *filename){
             }
         }
     }
-
     //If the file doesn't end with '\n'.
     if(line_index > 0) {
         line[line_index] = '\0';
@@ -129,7 +127,7 @@ void extract_data(int fd, results_t *res, char *filename){
         if(strstr(line, "ERROR") != NULL)
             res->total_errors++;
     }
-
+    //Close file.
     close(fd);
 }
 
