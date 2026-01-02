@@ -1,0 +1,2 @@
+#Ignore LaTex code for GitHub language stats
+*.tex linguist-detectable=false
